@@ -55,6 +55,7 @@ export const Grafic = styled.div`
   width: 95%;
   background-color: ${(props) => props.theme.color.background};
   height: 450px;
+  overflow: hidden;
 `;
 
 export const GraficTitle = styled.h2`
