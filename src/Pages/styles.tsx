@@ -2,8 +2,8 @@ import styled from "styled-components";
 
 export const Container = styled.div`
   background-color: ${(props) => props.theme.color.background};
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  height: 100%;
   padding: 10px;
 `;
 export const Title = styled.h1`
@@ -14,7 +14,7 @@ export const Title = styled.h1`
 `;
 
 export const CardHome = styled.div`
-  width: auto;
+  width: 99%;
   height: 270px;
   display: flex;
   flex-direction: row;
@@ -54,7 +54,7 @@ export const Grafic = styled.div`
   margin-top: 20px;
   width: 95%;
   background-color: ${(props) => props.theme.color.background};
-  height: 450px;
+  height: 420px;
   overflow: hidden;
 `;
 
